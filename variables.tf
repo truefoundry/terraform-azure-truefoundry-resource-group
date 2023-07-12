@@ -1,8 +1,8 @@
-variable name {
+variable "name" {
   description = "Resource Group Name"
 }
 
-variable location {
+variable "location" {
   description = "Location"
 }
 
