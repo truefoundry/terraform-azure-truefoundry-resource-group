@@ -1,7 +1,7 @@
 locals {
   tags = merge(
     {
-      "terraform-module" = "network"
+      "terraform-module" = "terraform-azure-resource-group"
       "terraform"        = "true"
     },
     var.tags
