@@ -25,3 +25,9 @@ variable "tags" {
   default     = {}
   description = "Tags common to all the resources created"
 }
+
+variable "tags1" {
+  type        = map(string)
+  default     = {}
+  description = "Tags common to all the resources created"
+}
