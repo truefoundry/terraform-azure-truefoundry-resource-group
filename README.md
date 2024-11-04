@@ -34,6 +34,7 @@ No modules.
 | <a name="input_name"></a> [name](#input\_name) | Resource Group Name | `string` | n/a | yes |
 | <a name="input_shim"></a> [shim](#input\_shim) | If true will not create the resource group | `bool` | `false` | no |
 | <a name="input_tags"></a> [tags](#input\_tags) | Tags common to all the resources created | `map(string)` | `{}` | no |
+| <a name="input_tags1"></a> [tags1](#input\_tags1) | Tags common to all the resources created | `map(string)` | `{}` | no |
 
 ## Outputs
 
